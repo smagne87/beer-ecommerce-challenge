@@ -1,0 +1,9 @@
+.product-card {
+    @apply bg-white gap-3 p-2 rounded flex flex-col justify-center align-middle shadow-md;
+    width: 160px;
+    height: 205px;
+}
+
+.product-add-btn {
+    @apply bg-custom-orange text-white p-2 rounded-tl-md rounded-br-md absolute bottom-0 right-0;
+}
